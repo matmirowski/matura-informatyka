@@ -34,7 +34,7 @@ public abstract class Task6_3 {
                         numberOfContrastPixels++;
                 }
 
-                else if (y==119) { // bottom wall
+                else if (y==199) { // bottom wall
                     if (Math.abs(numArray[x][y] - numArray[x-1][y])>128 || Math.abs(numArray[x][y] - numArray[x+1][y])>128
                             || Math.abs(numArray[x][y] - numArray[x][y-1])>128)
                         numberOfContrastPixels++;
@@ -57,18 +57,12 @@ public abstract class Task6_3 {
                             || Math.abs(numArray[x][y] - numArray[x][y + 1]) > 128 || Math.abs(numArray[x][y] - numArray[x - 1][y]) > 128)
                         numberOfContrastPixels++;
                 }
-
-
-
             }
         }
+
         System.out.println("Task 6.3");
         System.out.println("Contrasting pixels: " + numberOfContrastPixels);
         System.out.println();
-    }
-
-    private static void checkContrast(int[][] numArray) {
-        
     }
 
 }
