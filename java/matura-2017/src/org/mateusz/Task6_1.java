@@ -2,10 +2,8 @@ package org.mateusz;
 
 import java.io.*;
 
-public class Task6_1 {
-
+public abstract class Task6_1 {
     public static void run() throws IOException {
-
         BufferedReader reader = new BufferedReader(new FileReader("dane.txt"));
         String line;
         String[] numbers;

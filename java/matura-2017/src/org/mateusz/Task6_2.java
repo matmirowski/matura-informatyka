@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Task6_2 {
+public abstract class Task6_2 {
     public static void run() throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("przyklad.txt"));
         String line;
