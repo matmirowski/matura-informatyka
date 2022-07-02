@@ -26,8 +26,10 @@ public class Task6_1 {
             }
         }
 
+        System.out.println("Task 6.1");
         System.out.println("Brightest: " + brightest);
         System.out.println("Darkest " + darkest);
+        System.out.println();
         reader.close();
     }
 }
