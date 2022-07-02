@@ -1,7 +1,6 @@
 package org.mateusz;
 
 import java.io.*;
-import java.util.ArrayList;
 
 public class Task6_1 {
 
