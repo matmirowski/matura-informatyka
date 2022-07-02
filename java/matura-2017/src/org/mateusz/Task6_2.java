@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public abstract class Task6_2 {
     public static void run() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("przyklad.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("dane.txt"));
         String line;
         int invalidLines = 0;
 
