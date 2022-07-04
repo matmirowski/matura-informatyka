@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Task4_4 {
+public class Task4_1and4_4 {
     public static void run() throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("instrukcje.txt"));
         String line;
@@ -20,8 +20,12 @@ public class Task4_4 {
                 case "PRZESUN" -> result = przesun(result, order[1]);
             }
         }
+        System.out.println("Task 4.1");
+        System.out.println(result.length());
+        System.out.println();
         System.out.println("Task 4.4");
         System.out.println(result);
+        System.out.println();
     }
 
     private static String dopisz(String result, String letter) {
