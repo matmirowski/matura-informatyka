@@ -34,6 +34,7 @@ public class Task4_2 {
         }
         System.out.println("Task 4.2");
         System.out.println(longestSeries + " " + longestSeriesLength);
+        System.out.println();
 
     }
 }
