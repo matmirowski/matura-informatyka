@@ -19,6 +19,7 @@ public class Task4_1 {
                 primeNumbers.add(i);
         }
 
+        System.out.println("Task 4.1");
         while ((line = reader.readLine()) != null) {
             numAndWord = line.strip().split(" ");
             int number = Integer.parseInt(numAndWord[0]);
@@ -26,6 +27,7 @@ public class Task4_1 {
             if (number % 2 == 0) // if it's even, we can check it
                 System.out.println(sum(primeNumbers, number));
         }
+        System.out.println();
 
 
     }
